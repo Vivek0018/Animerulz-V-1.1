@@ -101,7 +101,7 @@ catch{}
 
 try{
     if(document.getElementById("home-anchor-tag") != null)
-    document.getElementsByClassName("nav-image")[0].setAttribute("onclick", "window.open('https://animerulz.xyz/','_self')");
+    document.getElementsByClassName("nav-image")[0].setAttribute("onclick", "window.open('https://animerulz.in/','_self')");
 }
 catch{}
 

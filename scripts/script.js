@@ -87,7 +87,7 @@ try{
     let check = document.getElementsByClassName("active-page-tag-season")[0];
     let activeAnimeNew;
     if(check === undefined){
-        activeAnimeNew = document.getElementById("active-page-tag").textContent.replace(/[^a-zA-Z0-9]/g, "");
+        activeAnimeNew = document.getElementById("active-page-tag").textContent.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
         // console.log(activeAnimeNew);
     }
     // console.log(document.getElementsByClassName("btns-in-data")[0].getElementsByTagName("a")[0]);
